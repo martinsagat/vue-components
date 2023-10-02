@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: Get Started
       link: /get-started/index
-    - theme: alt
-      text: Components
-      link: /components/index
+    # - theme: alt
+    #   text: Components
+    #   link: /components/index
 
 features:
   # - title: Feature A
