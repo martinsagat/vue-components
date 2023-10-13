@@ -2,9 +2,16 @@
 prev:
   text: 'Input Text'
   link: '/components/input-text/index'
-next: false
 ---
 
-# Input Textarea
+<script setup>
+import InputTextarea from './../../../src/InputTextarea.vue'
+</script>
 
-## Overview
+# Input Textarea 
+
+This is a classic textarea input.
+
+## Example
+
+<InputTextarea />
