@@ -1,7 +1,7 @@
 ---
 prev:
   text: 'Input Text'
-  link: '/components/inputText/index'
+  link: '/components/input-text/index'
 next: false
 ---
 

@@ -26,8 +26,8 @@ export default defineConfig({
             text: 'Inputs',
             collapsed: true,
             items: [
-              { text: 'Text', link: '/components/inputText/index' },
-              { text: 'Textarea', link: 'components/inputTextarea/index' }
+              { text: 'Text', link: '/components/input-text/index' },
+              { text: 'Textarea', link: 'components/input-textarea/index' }
             ]
           },
         ]

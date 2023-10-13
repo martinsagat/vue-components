@@ -1,0 +1,11 @@
+@import 'variables';
+
+body {
+  font-size: $base-font-size;
+  background-color: $primary-color;
+}
+
+.button {
+  background-color: $secondary-color;
+  color: white;
+}

@@ -1,4 +1,5 @@
-import components from'./components'
+import './styles/index.scss'
+import components from './components'
 
 const plugin = {
   install (Vue) {
