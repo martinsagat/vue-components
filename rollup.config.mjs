@@ -19,7 +19,10 @@ export default [
       vue(),
       peerDepsExternal(),
       scss({
-        output: true, // Generate a separate CSS file
+        fileName: 'dist/style.css',
+        sourceMap: false,
+        prefix: `@import "./src/styles/_variables.scss";`,
+        watch: ['src/styles'],
       }),
     ]
   }
