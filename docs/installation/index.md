@@ -18,12 +18,15 @@ Include library into a Vue project:
 
 
 ```js
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-import plugin from '@martinsagat/vue-components'
+// import library
+import plugin from '@martinsagat/vue-components';
+// import styles
+import '@martinsagat/vue-components/dist/library.mjs.css';
 
 createApp(App)
-  .use(plugin)
+  .use(plugin) // use library inside the app
   .mount('#app')
 ```
