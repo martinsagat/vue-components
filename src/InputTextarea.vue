@@ -14,3 +14,11 @@ textarea {
     width: 100%;
 }
 </style>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'InputTextarea'
+});
+</script>

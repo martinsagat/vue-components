@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from 'vue';
-
     const isInputFocused = ref(false);
     const inputValue = ref('');
 
@@ -66,3 +65,11 @@ label.active {
   color: $input-label-color;
 }
 </style>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'InputText'
+});
+</script>
