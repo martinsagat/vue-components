@@ -1,6 +1,6 @@
 {
   "name": "@martinsagat/vue-components",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Custom vue components",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
