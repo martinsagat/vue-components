@@ -21,7 +21,7 @@ Include library into a Vue project:
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import plugin from '@yourname/yourlibrary'
+import plugin from '@martinsagat/vue-components'
 
 createApp(App)
   .use(plugin)

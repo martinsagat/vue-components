@@ -1,6 +1,6 @@
 {
   "name": "@martinsagat/vue-components",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Custom vue components",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
@@ -26,6 +26,7 @@
     "postcss": "^8.4.20",
     "rollup": "^3.29.4",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-scss": "^4.0.0",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.69.3",
     "sass-loader": "^13.3.2",
