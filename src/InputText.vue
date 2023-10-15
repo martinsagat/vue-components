@@ -31,9 +31,11 @@ import { ref } from 'vue';
 .input-container {
   position: relative;
   margin-top: 2.3em;
+  width: 100%;
 }
 
 input {
+  background-color: $input-background-color;
   color: $input-color;
   padding: $input-padding;
   border-radius: $input-border-radius;
