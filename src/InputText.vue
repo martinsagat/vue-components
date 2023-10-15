@@ -17,13 +17,16 @@ import { ref } from 'vue';
 
 <template>
   <div class="input-container">
+    <label class="animated-label" :class="{ 'active': isInputFocused }">This is a label</label>
+    <span class="input-wrapper">
     <input
       type="text"
       v-model="inputValue"
       @focus="onInputFocus"
       @blur="onInputBlur"
     />
-    <label class="animated-label" :class="{ 'active': isInputFocused }">This is a label</label>
+    </span>
+    
   </div>
 </template>
 
@@ -32,6 +35,18 @@ import { ref } from 'vue';
   position: relative;
   margin-top: 2.3em;
   width: 100%;
+
+  &.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2.3em;
+    border-radius: $input-border-radius;
+    border: $input-border-color solid $input-border-size;
+    transition: border-color 0.2s ease;
+  }
 }
 
 input {
