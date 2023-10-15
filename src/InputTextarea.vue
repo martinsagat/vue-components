@@ -1,5 +1,3 @@
-
-
 <template>
     <textarea />
 </template>
@@ -12,6 +10,7 @@ textarea {
     border: $input-border-color solid $input-border-size;
     font-size: $input-font-size;
     width: 100%;
+    box-sizing: border-box;
 }
 </style>
 
