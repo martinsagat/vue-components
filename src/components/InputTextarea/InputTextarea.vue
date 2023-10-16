@@ -1,3 +1,9 @@
+<script lang="ts">
+export default {
+  name: 'InputTextarea'
+};
+</script>
+
 <template>
     <textarea />
 </template>
@@ -13,11 +19,3 @@ textarea {
     box-sizing: border-box;
 }
 </style>
-
-<script>
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'InputTextarea'
-});
-</script>

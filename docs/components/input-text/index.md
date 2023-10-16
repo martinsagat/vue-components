@@ -8,7 +8,7 @@ next:
 ---
 
 <script setup>
-import InputText from './../../../src/InputText.vue'
+import InputText from './../../../src/components/InputText/InputText.vue'
 </script>
 
 # Input Text  

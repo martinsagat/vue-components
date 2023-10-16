@@ -5,7 +5,7 @@ prev:
 ---
 
 <script setup>
-import InputTextarea from './../../../src/InputTextarea.vue'
+import InputTextarea from './../../../src/components/InputTextarea/InputTextarea.vue'
 </script>
 
 # Input Textarea 

@@ -1,4 +1,10 @@
-<script setup>
+<script lang="ts">
+export default {
+  name: 'InputText'
+};
+</script>
+
+<script setup lang="ts">
 import { ref } from 'vue';
     const isInputFocused = ref(false);
     const inputValue = ref('');
@@ -84,10 +90,3 @@ label.active {
 }
 </style>
 
-<script>
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'InputText'
-});
-</script>
